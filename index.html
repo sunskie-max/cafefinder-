@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cafe Finder</title>
+
+  <!-- Fonts + CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cafe Finder</h1>
+    <p>Find the best cafes in your city!</p>
+  </header>
+
+  <main class="container">
+    <!-- TOP RATED CAFES -->
+    <section class="top-rated">
+      <h2>🏆 Top Rated Cafes in Hyderabad</h2>
+      <div class="top-cafe-list" id="topList"></div>
+    </section>
+    
+    <!-- ALL CAFES -->
+    <section class="all-cafes">
+      <h2>All Cafes</h2>
+      <div class="cafe-list" id="list"></div>
+    </section>
+  </main>
+
+  <footer>© 2025 Cafe Finder</footer>
+
+  <!-- Put scripts at the end -->
+  <script>
+  // helpers
+  function slug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+  function photoSrc(name){ return `images/cafes/${slug(name)}.jpg`; }
+  
+  // generate random tags for variety
+  function getRandomTags(){
+    const allTags = ['Wi-Fi', 'Outdoor', 'Coffee', 'Pastries', 'Breakfast', 'Lunch', 'AC', 'Pet-Friendly', 'Study Space', 'Live Music', 'Vegan Options', 'Parking'];
+    const count = Math.floor(Math.random() * 2) + 2; // 2-3 tags
+    const shuffled = allTags.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  }
+  
+  // generate consistent rating and stars
+  function generateRating(){
+    const rating = (3.5 + Math.random() * 1.3).toFixed(1);
+    const fullStars = Math.floor(rating);
+    const hasHalf = rating % 1 >= 0.5;
+    let stars = '★'.repeat(fullStars);
+    if (hasHalf) stars += '☆';
+    stars += '☆'.repeat(5 - fullStars - (hasHalf ? 1 : 0));
+    return { rating, stars };
+  }
+
+  // load + render
+  async function loadCafes(){
+    // Render top rated cafes (first 5)
+    document.getElementById('topList').innerHTML = hyderabadCafes.slice(0, 5).map(topCafeHTML).join('');
+    
+    // Render more cafes section
+    const moreCafesSection = document.createElement('section');
+    moreCafesSection.className = 'more-cafes';
+    moreCafesSection.innerHTML = `
+      <h2>More Great Cafes</h2>
+      <div class="cafe-list">${hyderabadCafes.slice(5).map(c => topCafeHTML({...c, rank: null})).join('')}</div>
+    `;
+    document.querySelector('.all-cafes').before(moreCafesSection);
+    
+    // Load and render other cafes from geojson
+    try {
+      const res = await fetch('export.geojson');
+      const gj  = await res.json();
+      const features = gj.features || [];
+
+      const cafes = features.map(f => {
+        const p = f.properties || {};
+        const g = f.geometry  || {};
+        const [lon, lat] = getLonLat(g);
+        const addr = [
+          p["addr:housenumber"],
+          p["addr:street"],
+          p["addr:city"] || "Hyderabad"
+        ].filter(Boolean).join(' ');
+        return { name: p.name || "Unnamed Cafe", lat, lon, addr };
+      }).filter(c => Number.isFinite(c.lat) && Number.isFinite(c.lon));
+
+      document.getElementById('list').innerHTML = cafes.slice(0, 20).map(cardHTML).join('');
+    } catch(e) {
+      document.getElementById('list').innerHTML = '<p>Loading cafes...</p>';
+    }
+  }
+
+  // geometry → [lon,lat]
+  function getLonLat(geom){
+    if (!geom) return [NaN, NaN];
+    if (geom.type === 'Point') return geom.coordinates;                 // [lon,lat]
+    if (geom.type === 'Polygon') return centroid(geom.coordinates[0]);  // outer ring
+    if (geom.type === 'MultiPolygon'){
+      const cents = geom.coordinates.map(poly => centroid(poly[0]));
+      const lon = cents.reduce((a,c)=>a+c[0],0)/cents.length;
+      const lat = cents.reduce((a,c)=>a+c[1],0)/cents.length;
+      return [lon, lat];
+    }
+    if (geom.type === 'LineString'){
+      const mid = Math.floor(geom.coordinates.length/2);
+      return geom.coordinates[mid];
+    }
+    return [NaN, NaN];
+  }
+
+  // centroid for a ring (shoelace)
+  function centroid(ring){
+    let A=0, cx=0, cy=0;
+    for (let i=0, j=ring.length-1; i<ring.length; j=i++){
+      const [x0,y0]=ring[j], [x1,y1]=ring[i];
+      const f = x0*y1 - x1*y0; A += f; cx += (x0+x1)*f; cy += (y0+y1)*f;
+    }
+    A *= 0.5;
+    if (!A){
+      const lon = ring.reduce((s,[x])=>s+x,0)/ring.length;
+      const lat = ring.reduce((s,[,y])=>s+y,0)/ring.length;
+      return [lon, lat];
+    }
+    return [cx/(6*A), cy/(6*A)];
+  }
+
+  // Real Hyderabad cafes with detailed menus
+  const hyderabadCafes = [
+    { rank: 1, name: "Third Wave Coffee Roasters", rating: 4.6, address: "Banjara Hills, Road No. 12", lat: 17.4126, lon: 78.4482 },
+    { rank: 2, name: "Starbucks Coffee", rating: 4.4, address: "Forum Sujana Mall, Kukatpally", lat: 17.4851, lon: 78.4086 },
+    { rank: 3, name: "Blue Tokai Coffee Roasters", rating: 4.5, address: "Jubilee Hills, Road No. 36", lat: 17.4239, lon: 78.4738 },
+    { rank: 4, name: "Cafe Coffee Day", rating: 4.2, address: "Himayatnagar, Narayanguda", lat: 17.4065, lon: 78.4772 },
+    { rank: 5, name: "Concu Coffee", rating: 4.3, address: "Kondapur, HITEC City", lat: 17.4435, lon: 78.3665 },
+    { rank: 6, name: "True Black Coffee", rating: 4.4, address: "Jubilee Hills, Road No. 45", lat: 17.4298, lon: 78.4101 },
+    { rank: 7, name: "Habitat Cafe", rating: 4.3, address: "Banjara Hills, Road No. 10", lat: 17.4089, lon: 78.4501 },
+    { rank: 8, name: "Roast 24/7", rating: 4.2, address: "Gachibowli, Financial District", lat: 17.4239, lon: 78.3776 },
+    { rank: 9, name: "One8 Commune", rating: 4.1, address: "Jubilee Hills, Road No. 36", lat: 17.4276, lon: 78.4089 },
+    { rank: 10, name: "Mowtown Stories Cafe", rating: 4.0, address: "Madhapur, HITEC City", lat: 17.4485, lon: 78.3908 }
+  ];
+  
+  const allMenus = {
+    "third-wave-coffee-roasters": [
+      { name: "Pour Over Coffee", price: "₹220", available: true, description: "Single origin specialty coffee", category: "Coffee" },
+      { name: "Flat White", price: "₹180", available: true, description: "Smooth microfoam latte", category: "Coffee" },
+      { name: "Avocado Toast", price: "₹280", available: false, description: "Multigrain bread with fresh avocado", category: "Food" },
+      { name: "Cold Brew", price: "₹200", available: true, description: "12-hour cold extracted coffee", category: "Coffee" },
+      { name: "Croissant", price: "₹150", available: true, description: "Buttery French pastry", category: "Food" }
+    ],
+    "starbucks-coffee": [
+      { name: "Caramel Macchiato", price: "₹315", available: true, description: "Espresso with vanilla and caramel", category: "Coffee" },
+      { name: "Frappuccino", price: "₹285", available: true, description: "Blended coffee beverage", category: "Coffee" },
+      { name: "Chocolate Croissant", price: "₹195", available: true, description: "Buttery pastry with chocolate", category: "Food" },
+      { name: "Americano", price: "₹240", available: true, description: "Classic espresso with hot water", category: "Coffee" }
+    ],
+    "blue-tokai-coffee-roasters": [
+      { name: "Vienna Coffee", price: "₹160", available: true, description: "Rich coffee with whipped cream", category: "Coffee" },
+      { name: "Blueberry Muffin", price: "₹140", available: false, description: "Fresh baked muffin with blueberries", category: "Food" },
+      { name: "Iced Americano", price: "₹180", available: true, description: "Chilled espresso with water", category: "Coffee" }
+    ],
+    "default": [
+      { name: "Cappuccino", price: "₹140", available: true, description: "Classic coffee with steamed milk", category: "Coffee" },
+      { name: "Americano", price: "₹120", available: true, description: "Espresso with hot water", category: "Coffee" },
+      { name: "Latte", price: "₹150", available: true, description: "Espresso with steamed milk", category: "Coffee" },
+      { name: "Sandwich", price: "₹160", available: true, description: "Fresh grilled sandwich", category: "Food" },
+      { name: "Croissant", price: "₹120", available: true, description: "Buttery French pastry", category: "Food" },
+      { name: "Muffin", price: "₹100", available: true, description: "Freshly baked muffin", category: "Food" }
+    ]
+  };
+
+  // Top cafe card template
+  function topCafeHTML(c){
+    const stars = '★'.repeat(Math.floor(c.rating)) + (c.rating % 1 >= 0.5 ? '☆' : '') + '☆'.repeat(5 - Math.ceil(c.rating));
+    const menu = allMenus[slug(c.name)] || allMenus.default;
+    const previewItems = menu.slice(0, 3);
+    
+    return `
+    <article class="cafe-card top-cafe">
+      <div class="thumb">
+        <img src="${photoSrc(c.name)}" alt="${c.name}"
+             onerror="this.onerror=null;this.src='images/cafe1.jpg'">
+        <span class="badge">⭐ Top Rated</span>
+        <div class="rank-badge">#${c.rank}</div>
+      </div>
+      <div class="card-body">
+        <div class="cafe-header">
+          <h2>${c.name}</h2>
+          <div class="rating">
+            <span class="stars">${stars}</span>
+            <span class="rating-text">${c.rating}</span>
+          </div>
+        </div>
+        <p class="address">${c.address}</p>
+        
+        <div class="menu-preview">
+          <h4>Popular Items</h4>
+          <div class="menu-items">
+            ${previewItems.map(item => `
+              <div class="menu-item ${!item.available ? 'unavailable' : ''}">
+                <span class="item-name">${item.name}</span>
+                <span class="item-price">${item.price}</span>
+                ${!item.available ? '<span class="unavailable-tag">Out of Stock</span>' : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        
+        <div class="actions">
+          <button onclick="openMenuPage('${slug(c.name)}', '${c.name}')" class="btn">View Menu</button>
+          <button onclick="showDirections('${c.name}', '${c.address}', ${c.lat}, ${c.lon})" class="btn btn-directions">📍 Directions</button>
+        </div>
+      </div>
+    </article>`;
+  }
+  
+  // Regular cafe card template
+  function cardHTML(c){
+    const ratingData = generateRating();
+    const tags = getRandomTags();
+    const menu = allMenus.default;
+    const previewItems = menu.slice(0, 3).map(item => ({
+      ...item,
+      available: Math.random() > 0.2
+    }));
+    
+    return `
+    <article class="cafe-card">
+      <div class="thumb">
+        <img src="${photoSrc(c.name)}" alt="${c.name}"
+             onerror="this.onerror=null;this.src='images/cafe1.jpg'">
+        <span class="badge">Open now</span>
+      </div>
+      <div class="card-body">
+        <div class="cafe-header">
+          <h2>${c.name}</h2>
+          <div class="rating">
+            <span class="stars">${ratingData.stars}</span>
+            <span class="rating-text">${ratingData.rating}</span>
+          </div>
+        </div>
+        <p class="address">${c.addr || "Hyderabad"}</p>
+        <ul class="tags">${tags.map(tag => `<li>${tag}</li>`).join('')}</ul>
+        
+        <div class="menu-preview">
+          <h4>Popular Items</h4>
+          <div class="menu-items">
+            ${previewItems.map(item => `
+              <div class="menu-item ${!item.available ? 'unavailable' : ''}">
+                <span class="item-name">${item.name}</span>
+                <span class="item-price">${item.price}</span>
+                ${!item.available ? '<span class="unavailable-tag">Out of Stock</span>' : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        
+        <div class="actions">
+          <button onclick="openMenuPage('default', '${c.name}')" class="btn">View Menu</button>
+          <button onclick="showDirections('${c.name}', '${c.addr || 'Hyderabad'}', ${c.lat}, ${c.lon})" class="btn btn-directions">📍 Directions</button>
+        </div>
+      </div>
+    </article>`;
+  }
+  
+  // New menu page function
+  function openMenuPage(cafeSlug, cafeName) {
+    const menu = allMenus[cafeSlug] || allMenus.default;
+    const categories = [...new Set(menu.map(item => item.category))];
+    
+    document.body.innerHTML = `
+      <div class="menu-page">
+        <header class="menu-header">
+          <button onclick="location.reload()" class="back-btn">← Back to Cafes</button>
+          <h1>${cafeName} - Menu</h1>
+        </header>
+        <main class="menu-content">
+          <div class="menu-filters">
+            <button class="filter-btn active" onclick="filterMenu('all')">All Items</button>
+            ${categories.map(cat => `<button class="filter-btn" onclick="filterMenu('${cat.toLowerCase()}')">${cat}</button>`).join('')}
+          </div>
+          <div class="menu-grid" id="menuGrid">
+            ${menu.map(item => `
+              <div class="menu-card" data-category="${item.category.toLowerCase()}">
+                <div class="menu-item-header">
+                  <h3>${item.name}</h3>
+                  <span class="menu-price">${item.price}</span>
+                </div>
+                <p class="menu-description">${item.description}</p>
+                <div class="menu-status">
+                  ${item.available ? '<span class="status-available">Available</span>' : '<span class="status-unavailable">Out of Stock</span>'}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </main>
+      </div>
+    `;
+  }
+  
+  // Directions dashboard function
+  function showDirections(cafeName, address, lat, lon) {
+    const gmapsUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
+    
+    document.body.innerHTML = `
+      <div class="directions-page">
+        <header class="directions-header">
+          <button onclick="location.reload()" class="back-btn">← Back to Cafes</button>
+          <h1>Directions to ${cafeName}</h1>
+        </header>
+        <main class="directions-content">
+          <div class="cafe-info-card">
+            <h2>${cafeName}</h2>
+            <p class="cafe-address">📍 ${address}</p>
+            <div class="coordinates">Coordinates: ${lat}, ${lon}</div>
+            <button onclick="window.open('${gmapsUrl}', '_blank')" class="start-drive-btn">🚗 Start Drive</button>
+          </div>
+        </main>
+      </div>
+    `;
+  }
+  
+  // Menu filter function
+  function filterMenu(category) {
+    const cards = document.querySelectorAll('.menu-card');
+    const buttons = document.querySelectorAll('.filter-btn');
+    
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    cards.forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', loadCafes);
+  </script>
+</body>
+</html>

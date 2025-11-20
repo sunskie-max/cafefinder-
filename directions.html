@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Directions • Cafe Finder</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .mapwrap{max-width:1120px;margin:22px auto}
+    .mapbox{border:1px solid var(--ring);background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(15,23,42,.06)}
+    iframe{width:100%;height:460px;border:0}
+    .list{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 0}
+    .list a{border:1px solid var(--ring);background:#fff;padding:6px 10px;border-radius:999px;text-decoration:none;color:var(--ink);font-weight:600}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Directions</h1>
+    <p id="subtitle">Loading café…</p>
+  </header>
+
+  <main class="container mapwrap">
+    <article class="cafe-card">
+      <div class="thumb"><img id="hero" alt=""></div>
+      <div class="card-body">
+        <h2 id="cname"></h2>
+        <p class="address" id="addr"></p>
+      </div>
+    </article>
+
+    <div class="mapbox" id="mapbox" style="display:none">
+      <iframe id="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="actions" style="padding:12px;border-top:1px solid var(--ring);background:#fff">
+        <a id="open" class="btn" target="_blank" rel="noopener">Open in Google Maps</a>
+        <a href="index.html" class="btn btn-outline">← Back to home</a>
+      </div>
+    </div>
+
+    <div id="chooser"></div>
+  </main>
+
+  <script>
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+  const photoSrc = name => `images/cafes/${slug(name)}.jpg`;
+
+  async function load(){
+    const id = location.hash.slice(1);
+    const res = await fetch('export.geojson');  // use your file name
+    const gj  = await res.json();
+
+    const cafes = (gj.features||[]).map(f=>{
+      const p=f.properties||{}, g=f.geometry||{};
+      let lon,lat;
+      if (g.type==='Point') [lon,lat]=g.coordinates;
+      else if (g.type==='Polygon') [lon,lat]=centroid(g.coordinates[0]);
+      else if (g.type==='MultiPolygon') [lon,lat]=centroid(g.coordinates[0][0]);
+      const addr=[p["addr:housenumber"],p["addr:street"],p["addr:city"]||"Hyderabad"].filter(Boolean).join(' ');
+      return { name:p.name||'Unnamed Cafe', lat, lon, addr, slug: slug(p.name||'unnamed') };
+    }).filter(c=>Number.isFinite(c.lat)&&Number.isFinite(c.lon));
+
+    const cafe = cafes.find(c=>c.slug===id);
+
+    if (!cafe) {
+      document.getElementById('subtitle').textContent = 'Pick a café:';
+      const chooser = document.getElementById('chooser');
+      chooser.innerHTML = `<div class="list">${
+        cafes.slice(0,30).map(c=>`<a href="#${c.slug}" onclick="location.reload()">${c.name}</a>`).join('')
+      }</div>`;
+      return;
+    }
+
+    document.getElementById('subtitle').textContent = cafe.name;
+    document.getElementById('cname').textContent    = cafe.name;
+    document.getElementById('addr').textContent     = cafe.addr || 'Hyderabad';
+
+    const hero = document.getElementById('hero');
+    hero.src = photoSrc(cafe.name);
+    hero.alt = cafe.name;
+    hero.onerror = ()=>{hero.src='images/cafe1.jpg'};
+
+    const q = `${cafe.lat},${cafe.lon}`;
+    document.getElementById('map').src  = `https://www.google.com/maps?q=${q}&z=16&output=embed`;
+    document.getElementById('open').href = `https://www.google.com/maps?daddr=${q}`;
+    document.getElementById('mapbox').style.display = '';
+  }
+
+  function centroid(ring){
+    let A=0,cx=0,cy=0;
+    for(let i=0,j=ring.length-1;i<ring.length;j=i++){
+      const [x0,y0]=ring[j],[x1,y1]=ring[i]; const f=x0*y1-x1*y0;
+      A+=f; cx+=(x0+x1)*f; cy+=(y0+y1)*f;
+    }
+    A*=0.5; if(!A){ const lon=ring.reduce((s,[x])=>s+x,0)/ring.length; const lat=ring.reduce((s,[,y])=>s+y,0)/ring.length; return [lon,lat];}
+    return [cx/(6*A), cy/(6*A)];
+  }
+
+  load();
+  </script>
+</body>
+</html>
+

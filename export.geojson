@@ -1,0 +1,5604 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-10T10:21:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256686042",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Canteen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4890642,
+              17.4406793
+            ],
+            [
+              78.4890641,
+              17.4406338
+            ],
+            [
+              78.4891383,
+              17.4406336
+            ],
+            [
+              78.4891384,
+              17.4406791
+            ],
+            [
+              78.4890642,
+              17.4406793
+            ]
+          ]
+        ]
+      },
+      "id": "way/256686042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331213192",
+        "addr:housenumber": "jntu canteen",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2024-03-16",
+        "name": "JNTU - Canteen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3927327,
+              17.4943685
+            ],
+            [
+              78.3925974,
+              17.4942145
+            ],
+            [
+              78.3928285,
+              17.4940297
+            ],
+            [
+              78.3929639,
+              17.4941837
+            ],
+            [
+              78.3927327,
+              17.4943685
+            ]
+          ]
+        ]
+      },
+      "id": "way/331213192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341366884",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "RIO"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4956244,
+              17.4405532
+            ],
+            [
+              78.4955876,
+              17.4404964
+            ],
+            [
+              78.49566,
+              17.4404652
+            ],
+            [
+              78.4956927,
+              17.440522
+            ],
+            [
+              78.4956244,
+              17.4405532
+            ]
+          ]
+        ]
+      },
+      "id": "way/341366884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/343607169",
+        "addr:city": "Hyderabad",
+        "addr:housenumber": "8-3",
+        "addr:postcode": "500072",
+        "addr:street": "Usha Mullapudi Rd",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2024-03-16",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "cafe shop",
+        "operator": "auto stand",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4032656,
+              17.4939599
+            ],
+            [
+              78.4034836,
+              17.4938626
+            ],
+            [
+              78.4035604,
+              17.4940193
+            ],
+            [
+              78.4033424,
+              17.4941165
+            ],
+            [
+              78.4032656,
+              17.4939599
+            ]
+          ]
+        ]
+      },
+      "id": "way/343607169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355962356",
+        "addr:city": "Hyderabad",
+        "addr:housenumber": "2-5-74",
+        "addr:postcode": "500010",
+        "addr:street": "Alwal Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "burger;coffee_shop;sandwich;ice_cream",
+        "internet_access": "no",
+        "name": "Mr Monk",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+91 8143859445",
+        "website": "http://zoma.to/r/19734247"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5131323,
+              17.5119978
+            ],
+            [
+              78.5131569,
+              17.512002
+            ],
+            [
+              78.5131789,
+              17.5120132
+            ],
+            [
+              78.5131978,
+              17.5120325
+            ],
+            [
+              78.5132087,
+              17.5120569
+            ],
+            [
+              78.5132101,
+              17.5120833
+            ],
+            [
+              78.513202,
+              17.5121086
+            ],
+            [
+              78.5131853,
+              17.5121297
+            ],
+            [
+              78.513162,
+              17.5121441
+            ],
+            [
+              78.513135,
+              17.5121501
+            ],
+            [
+              78.5131074,
+              17.5121469
+            ],
+            [
+              78.5130827,
+              17.5121348
+            ],
+            [
+              78.5130654,
+              17.5121177
+            ],
+            [
+              78.5130544,
+              17.5120963
+            ],
+            [
+              78.513051,
+              17.5120726
+            ],
+            [
+              78.5130553,
+              17.5120492
+            ],
+            [
+              78.513067,
+              17.5120281
+            ],
+            [
+              78.513085,
+              17.5120116
+            ],
+            [
+              78.5131075,
+              17.5120011
+            ],
+            [
+              78.5131323,
+              17.5119978
+            ]
+          ]
+        ]
+      },
+      "id": "way/355962356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356021831",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500049",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Monginis Cake Shop"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3479609,
+              17.4951218
+            ],
+            [
+              78.3479497,
+              17.4950652
+            ],
+            [
+              78.3479232,
+              17.4949304
+            ],
+            [
+              78.3480536,
+              17.494907
+            ],
+            [
+              78.3480913,
+              17.4950985
+            ],
+            [
+              78.3479609,
+              17.4951218
+            ]
+          ]
+        ]
+      },
+      "id": "way/356021831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356175873",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Industrial cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.439343,
+              17.4913389
+            ],
+            [
+              78.4394588,
+              17.4912628
+            ],
+            [
+              78.4395544,
+              17.4913951
+            ],
+            [
+              78.4394386,
+              17.4914713
+            ],
+            [
+              78.439343,
+              17.4913389
+            ]
+          ]
+        ]
+      },
+      "id": "way/356175873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356233723",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4160264,
+              17.4170534
+            ],
+            [
+              78.4159873,
+              17.4168581
+            ],
+            [
+              78.4161395,
+              17.4168303
+            ],
+            [
+              78.4161786,
+              17.4170257
+            ],
+            [
+              78.4160264,
+              17.4170534
+            ]
+          ]
+        ]
+      },
+      "id": "way/356233723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356233926",
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Beyond Coffee"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.412716,
+              17.42973
+            ],
+            [
+              78.4125801,
+              17.429594
+            ],
+            [
+              78.4126877,
+              17.4294962
+            ],
+            [
+              78.4128235,
+              17.4296322
+            ],
+            [
+              78.412716,
+              17.42973
+            ]
+          ]
+        ]
+      },
+      "id": "way/356233926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356234447",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Le Vantage Cafe Bar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4177931,
+              17.4301636
+            ],
+            [
+              78.4176874,
+              17.4300556
+            ],
+            [
+              78.4177884,
+              17.4299656
+            ],
+            [
+              78.4178941,
+              17.4300736
+            ],
+            [
+              78.4177931,
+              17.4301636
+            ]
+          ]
+        ]
+      },
+      "id": "way/356234447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356516843",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "pastry;pasta;coffee;burger",
+        "internet_access": "wlan",
+        "name": "Daffodils cafe",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5145257,
+              17.403831
+            ],
+            [
+              78.5144857,
+              17.4037375
+            ],
+            [
+              78.5146501,
+              17.4036735
+            ],
+            [
+              78.5146901,
+              17.403767
+            ],
+            [
+              78.5145257,
+              17.403831
+            ]
+          ]
+        ]
+      },
+      "id": "way/356516843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356555646",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500057",
+        "addr:street": "vijaynagar colony circle",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "persian",
+        "internet_access": "no",
+        "name": "Marjan hotel",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4549276,
+              17.3955279
+            ],
+            [
+              78.4549799,
+              17.3953598
+            ],
+            [
+              78.4550818,
+              17.3953886
+            ],
+            [
+              78.4550295,
+              17.3955568
+            ],
+            [
+              78.4549276,
+              17.3955279
+            ]
+          ]
+        ]
+      },
+      "id": "way/356555646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357040594",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Suruchi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4031933,
+              17.317713
+            ],
+            [
+              78.4031905,
+              17.3176495
+            ],
+            [
+              78.4032546,
+              17.3176468
+            ],
+            [
+              78.4032575,
+              17.3177104
+            ],
+            [
+              78.4031933,
+              17.317713
+            ]
+          ]
+        ]
+      },
+      "id": "way/357040594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357354905",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "arun icecream"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5214742,
+              17.3577239
+            ],
+            [
+              78.5214697,
+              17.3576239
+            ],
+            [
+              78.5216551,
+              17.3576162
+            ],
+            [
+              78.5216596,
+              17.3577162
+            ],
+            [
+              78.5214742,
+              17.3577239
+            ]
+          ]
+        ]
+      },
+      "id": "way/357354905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357355502",
+        "amenity": "cafe",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5214739,
+              17.3568715
+            ],
+            [
+              78.5214691,
+              17.3567651
+            ],
+            [
+              78.5216442,
+              17.3567578
+            ],
+            [
+              78.5216491,
+              17.3568643
+            ],
+            [
+              78.5214739,
+              17.3568715
+            ]
+          ]
+        ]
+      },
+      "id": "way/357355502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357445354",
+        "amenity": "cafe",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4990208,
+              17.3525209
+            ],
+            [
+              78.4991506,
+              17.3525241
+            ],
+            [
+              78.4991459,
+              17.352695
+            ],
+            [
+              78.4990161,
+              17.3526917
+            ],
+            [
+              78.4990208,
+              17.3525209
+            ]
+          ]
+        ]
+      },
+      "id": "way/357445354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357589514",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Joy cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5397613,
+              17.3698456
+            ],
+            [
+              78.5396584,
+              17.3697282
+            ],
+            [
+              78.539834,
+              17.3695879
+            ],
+            [
+              78.539937,
+              17.3697053
+            ],
+            [
+              78.5397613,
+              17.3698456
+            ]
+          ]
+        ]
+      },
+      "id": "way/357589514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360462644",
+        "addr:city": "Hyderabad",
+        "addr:full": "H.No. 138, Doctors Colony Road, Kavuri Hills, Madhapur, Hyderabad-500081",
+        "addr:housenumber": "138",
+        "addr:postcode": "500081",
+        "addr:street": "Doctors Colony Road",
+        "amenity": "cafe",
+        "building": "commercial",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Lush Cafe | By the Lake",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3919746,
+              17.43654
+            ],
+            [
+              78.3918946,
+              17.4364261
+            ],
+            [
+              78.3920111,
+              17.4363517
+            ],
+            [
+              78.3920911,
+              17.4364656
+            ],
+            [
+              78.3919746,
+              17.43654
+            ]
+          ]
+        ]
+      },
+      "id": "way/360462644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/449688091",
+        "amenity": "cafe",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4926352,
+              17.4111403
+            ],
+            [
+              78.4927455,
+              17.4111412
+            ],
+            [
+              78.4927446,
+              17.4112424
+            ],
+            [
+              78.4926604,
+              17.4112417
+            ],
+            [
+              78.4926345,
+              17.4112199
+            ],
+            [
+              78.4926352,
+              17.4111403
+            ]
+          ]
+        ]
+      },
+      "id": "way/449688091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/466833777",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Chai Shai Bar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4801479,
+              17.4403607
+            ],
+            [
+              78.4801574,
+              17.4402612
+            ],
+            [
+              78.4802505,
+              17.4402693
+            ],
+            [
+              78.4802409,
+              17.4403688
+            ],
+            [
+              78.4801479,
+              17.4403607
+            ]
+          ]
+        ]
+      },
+      "id": "way/466833777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/596783347",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "white board cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3776971,
+              17.4461796
+            ],
+            [
+              78.3776647,
+              17.4459956
+            ],
+            [
+              78.3777314,
+              17.445985
+            ],
+            [
+              78.377725,
+              17.4459486
+            ],
+            [
+              78.3777809,
+              17.4459396
+            ],
+            [
+              78.3778196,
+              17.44616
+            ],
+            [
+              78.3776971,
+              17.4461796
+            ]
+          ]
+        ]
+      },
+      "id": "way/596783347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/740768578",
+        "amenity": "cafe",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4639349,
+              17.4400185
+            ],
+            [
+              78.4639535,
+              17.4399927
+            ],
+            [
+              78.4639836,
+              17.4400123
+            ],
+            [
+              78.4639964,
+              17.4399945
+            ],
+            [
+              78.4639688,
+              17.4399765
+            ],
+            [
+              78.4640055,
+              17.4399253
+            ],
+            [
+              78.464058,
+              17.4399596
+            ],
+            [
+              78.4640508,
+              17.4399695
+            ],
+            [
+              78.4641035,
+              17.4400039
+            ],
+            [
+              78.4640822,
+              17.4400336
+            ],
+            [
+              78.4641272,
+              17.440063
+            ],
+            [
+              78.4641189,
+              17.4400746
+            ],
+            [
+              78.4641513,
+              17.4400958
+            ],
+            [
+              78.4641199,
+              17.4401394
+            ],
+            [
+              78.4639349,
+              17.4400185
+            ]
+          ]
+        ]
+      },
+      "id": "way/740768578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/756217349",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "brand:wikipedia": "en:Café Coffee Day",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3669729,
+              17.4354994
+            ],
+            [
+              78.3670012,
+              17.4355445
+            ],
+            [
+              78.3669654,
+              17.4355675
+            ],
+            [
+              78.3669339,
+              17.4355226
+            ],
+            [
+              78.3669729,
+              17.4354994
+            ]
+          ]
+        ]
+      },
+      "id": "way/756217349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793742731",
+        "addr:city": "Hyderabad",
+        "addr:district": "Medchal",
+        "addr:postcode": "500032",
+        "addr:street": "DLF road",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "indian",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Am- Pm cafe",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3531672,
+              17.4469059
+            ],
+            [
+              78.3533066,
+              17.4468291
+            ],
+            [
+              78.3533925,
+              17.4469468
+            ],
+            [
+              78.3532369,
+              17.4470082
+            ],
+            [
+              78.3531672,
+              17.4469059
+            ]
+          ]
+        ]
+      },
+      "id": "way/793742731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/960681063",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Theory Cafe & Desert Bar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4146089,
+              17.4317827
+            ],
+            [
+              78.4146921,
+              17.4317204
+            ],
+            [
+              78.4147788,
+              17.4318258
+            ],
+            [
+              78.4146956,
+              17.431888
+            ],
+            [
+              78.4146089,
+              17.4317827
+            ]
+          ]
+        ]
+      },
+      "id": "way/960681063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1059327349",
+        "addr:city": "Hyderabad",
+        "addr:district": "Hyderabad",
+        "addr:housenumber": "Road No.3",
+        "addr:postcode": "500034",
+        "addr:street": "GAR Laxmi Pinnacle, BNR colony, Venkat Nagar",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "ROAST",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Roast CCx",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+91-8096116999",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "roastcoffee.in"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4325284,
+              17.4238569
+            ],
+            [
+              78.4323276,
+              17.4238302
+            ],
+            [
+              78.4320053,
+              17.4233757
+            ],
+            [
+              78.4320777,
+              17.4232821
+            ],
+            [
+              78.4322832,
+              17.4232264
+            ],
+            [
+              78.4325284,
+              17.4238569
+            ]
+          ]
+        ]
+      },
+      "id": "way/1059327349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1235253343",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Conçu",
+        "outdoor_seating": "no",
+        "website": "https://www.concu.in/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3643054,
+              17.4185452
+            ],
+            [
+              78.3642074,
+              17.4185296
+            ],
+            [
+              78.3642517,
+              17.4185541
+            ],
+            [
+              78.3643148,
+              17.4185786
+            ],
+            [
+              78.3644374,
+              17.4186042
+            ],
+            [
+              78.3645097,
+              17.4186087
+            ],
+            [
+              78.3645786,
+              17.4186064
+            ],
+            [
+              78.3645833,
+              17.4186287
+            ],
+            [
+              78.3645284,
+              17.4186365
+            ],
+            [
+              78.3644339,
+              17.4186499
+            ],
+            [
+              78.3643685,
+              17.4186488
+            ],
+            [
+              78.3642879,
+              17.4186421
+            ],
+            [
+              78.3642249,
+              17.4186309
+            ],
+            [
+              78.364156,
+              17.4186087
+            ],
+            [
+              78.3640871,
+              17.4185686
+            ],
+            [
+              78.3640439,
+              17.4185296
+            ],
+            [
+              78.3640054,
+              17.4184527
+            ],
+            [
+              78.3640007,
+              17.4183525
+            ],
+            [
+              78.3640334,
+              17.4182633
+            ],
+            [
+              78.364093,
+              17.4182199
+            ],
+            [
+              78.3641899,
+              17.4182099
+            ],
+            [
+              78.3642681,
+              17.4182466
+            ],
+            [
+              78.3643136,
+              17.4183168
+            ],
+            [
+              78.3643311,
+              17.4184137
+            ],
+            [
+              78.3643148,
+              17.4185073
+            ],
+            [
+              78.3643054,
+              17.4185452
+            ]
+          ]
+        ]
+      },
+      "id": "way/1235253343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1426461988",
+        "amenity": "cafe",
+        "building": "yes",
+        "layer": "1",
+        "name": "Cosmos Cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.5439074,
+              17.3635583
+            ],
+            [
+              78.5439679,
+              17.3633081
+            ],
+            [
+              78.5445047,
+              17.3633878
+            ],
+            [
+              78.5444221,
+              17.363701
+            ],
+            [
+              78.5442147,
+              17.3636608
+            ],
+            [
+              78.5442228,
+              17.3636238
+            ],
+            [
+              78.5439074,
+              17.3635583
+            ]
+          ]
+        ]
+      },
+      "id": "way/1426461988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/613410619",
+        "amenity": "cafe",
+        "name": "Minerva Coffee House",
+        "name:te": "మినర్వ కాఫీ హౌస్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4853821,
+          17.4013136
+        ]
+      },
+      "id": "node/613410619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626896819",
+        "amenity": "cafe",
+        "name": "zeeshan hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4865451,
+          17.3618613
+        ]
+      },
+      "id": "node/626896819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626897044",
+        "amenity": "cafe",
+        "name": "seven star cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4783351,
+          17.3692876
+        ]
+      },
+      "id": "node/626897044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626897176",
+        "amenity": "cafe",
+        "name": "ali cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4870928,
+          17.3653731
+        ]
+      },
+      "id": "node/626897176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626897179",
+        "amenity": "cafe",
+        "name": "new ali cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4857088,
+          17.3677078
+        ]
+      },
+      "id": "node/626897179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/626897768",
+        "amenity": "cafe",
+        "name": "Farasha Cafe",
+        "name:te": "ఫరాశా కేఫ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4739962,
+          17.3615306
+        ]
+      },
+      "id": "node/626897768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/728328520",
+        "amenity": "cafe",
+        "name": "Lucky Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4643425,
+          17.404463
+        ]
+      },
+      "id": "node/728328520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/817353816",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4016464,
+          17.435846
+        ]
+      },
+      "id": "node/817353816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/817354267",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "name:te": "కేఫ్ కాఫీ డే",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4484993,
+          17.4261299
+        ]
+      },
+      "id": "node/817354267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/888520029",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.44904,
+          17.4131908
+        ]
+      },
+      "id": "node/888520029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/892055989",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "internet_access": "no",
+        "name": "Cafe Sarvi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.459351,
+          17.4131835
+        ]
+      },
+      "id": "node/892055989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1042239883",
+        "amenity": "cafe",
+        "brand": "Barista",
+        "brand:wikidata": "Q644735",
+        "cuisine": "coffee_shop",
+        "name": "Barista",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3717132,
+          17.4579701
+        ]
+      },
+      "id": "node/1042239883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242249939",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Cafeteria in Krishnakanth Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4313251,
+          17.4413822
+        ]
+      },
+      "id": "node/1242249939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1275490956",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3861105,
+          17.4460255
+        ]
+      },
+      "id": "node/1275490956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1309296596",
+        "amenity": "cafe",
+        "name": "Hotel Astoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4675629,
+          17.4048814
+        ]
+      },
+      "id": "node/1309296596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1334686105",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Good Luck Cafe",
+        "name:te": "గుడ్‌లక్ కఫే"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.448238,
+          17.4413319
+        ]
+      },
+      "id": "node/1334686105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1340889258",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Swathi Tiffins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5575132,
+          17.3765194
+        ]
+      },
+      "id": "node/1340889258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1344110839",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.381208,
+          17.4412248
+        ]
+      },
+      "id": "node/1344110839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1361329777",
+        "amenity": "cafe",
+        "name": "Cafe Coffee day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5439087,
+          17.4170067
+        ]
+      },
+      "id": "node/1361329777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435322442",
+        "addr:postcode": "500047",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Turning Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5335279,
+          17.4524881
+        ]
+      },
+      "id": "node/1435322442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1447172214",
+        "amenity": "cafe",
+        "name": "Cafe Coffee Day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4820951,
+          17.3984645
+        ]
+      },
+      "id": "node/1447172214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1610991383",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4088878,
+          17.4152669
+        ]
+      },
+      "id": "node/1610991383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1713960847",
+        "amenity": "cafe",
+        "name": "Raghavendra Tiffins",
+        "name:te": "రాఘవేంద్ర టిఫీన్స్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5568071,
+          17.3651684
+        ]
+      },
+      "id": "node/1713960847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1885685950",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "name:te": "కేఫ్ కాఫీ డే",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4247167,
+          17.4238942
+        ]
+      },
+      "id": "node/1885685950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905930612",
+        "amenity": "cafe",
+        "name": "Vindhya Canteen",
+        "opening_hours": "Mo-Sa 08:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3491325,
+          17.4462731
+        ]
+      },
+      "id": "node/1905930612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2014856040",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3967696,
+          17.4388354
+        ]
+      },
+      "id": "node/2014856040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2052610437",
+        "amenity": "cafe",
+        "name": "Nilofer Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4627111,
+          17.3996015
+        ]
+      },
+      "id": "node/2052610437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352094397",
+        "amenity": "cafe",
+        "cuisine": "tea",
+        "internet_access": "no",
+        "name": "Red rose cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4557705,
+          17.4213813
+        ]
+      },
+      "id": "node/2352094397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352123652",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4479294,
+          17.416347
+        ]
+      },
+      "id": "node/2352123652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403426783",
+        "amenity": "cafe",
+        "name": "Minerva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4459874,
+          17.4372461
+        ]
+      },
+      "id": "node/2403426783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2432111519",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4682654,
+          17.4000853
+        ]
+      },
+      "id": "node/2432111519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2466611427",
+        "amenity": "cafe",
+        "name": "Barista Lavazza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4125626,
+          17.42367
+        ]
+      },
+      "id": "node/2466611427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2579739895",
+        "amenity": "cafe",
+        "check_date": "2024-03-16",
+        "cuisine": "coffee_shop",
+        "name": "Coffee Tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3928719,
+          17.4902649
+        ]
+      },
+      "id": "node/2579739895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2580734986",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500007",
+        "addr:street": "EFLU",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Maitree Cafetaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5261771,
+          17.4239569
+        ]
+      },
+      "id": "node/2580734986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2612239214",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "name:te": "కెఫే కాఫీ డే",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4469069,
+          17.4418023
+        ]
+      },
+      "id": "node/2612239214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2630309964",
+        "amenity": "cafe",
+        "atm": "no",
+        "cuisine": "fried_food",
+        "drive_through": "no",
+        "name": "Coffee Food & Art",
+        "note": "Good music and tastefully designed ala Coffee cup in SAINIKPURI",
+        "operator": "Sherman & Sherman",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.550842,
+          17.501725
+        ]
+      },
+      "id": "node/2630309964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2710632106",
+        "amenity": "cafe",
+        "name": "Rumaan Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4164898,
+          17.3988889
+        ]
+      },
+      "id": "node/2710632106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2710767846",
+        "amenity": "cafe",
+        "cuisine": "burger",
+        "name": "NFC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.40946,
+          17.493049
+        ]
+      },
+      "id": "node/2710767846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2710929650",
+        "amenity": "cafe",
+        "name": "Nimrah",
+        "name:te": "నిమ్రాహ్ హోటల్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4742856,
+          17.361389
+        ]
+      },
+      "id": "node/2710929650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2715299136",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Tiffin center",
+        "name:te": "టిఫిన్ సెంటర్",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4855958,
+          17.4103182
+        ]
+      },
+      "id": "node/2715299136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2729406949",
+        "amenity": "cafe",
+        "name": "Cafe",
+        "name:en": "Victoria cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4900649,
+          17.4091667
+        ]
+      },
+      "id": "node/2729406949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2794485602",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "name": "Chocolate Room",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3983227,
+          17.4391952
+        ]
+      },
+      "id": "node/2794485602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2817350830",
+        "addr:postcode": "500028",
+        "addr:street": "Opp to Sai baba temple, Gudimalkapur crossroads, Mehedipatmam",
+        "amenity": "cafe",
+        "cuisine": "Sweets_and_Bakery, Fast food",
+        "internet_access": "no",
+        "name": "Santhi Bakers",
+        "opening_hours": "08:00-23:00 open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4400604,
+          17.3863828
+        ]
+      },
+      "id": "node/2817350830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2843585223",
+        "amenity": "cafe",
+        "name": "Jalakanya Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.415797,
+          17.5043639
+        ]
+      },
+      "id": "node/2843585223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3010475772",
+        "addr:street": "Airport Flyover",
+        "amenity": "cafe",
+        "name": "HeartCup Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4691906,
+          17.4440522
+        ]
+      },
+      "id": "node/3010475772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3159027232",
+        "addr:street": "Yousufguda Main Road",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Cafe Coffee Day",
+        "opening_hours": "10:00-22:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4416304,
+          17.437519
+        ]
+      },
+      "id": "node/3159027232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3159027234",
+        "addr:street": "Yousufguda Main Road",
+        "amenity": "cafe",
+        "cuisine": "burger;pizza;pastry;cake",
+        "internet_access": "no",
+        "name": "Cake Exotica",
+        "opening_hours": "11:00-23:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4414105,
+          17.4372961
+        ]
+      },
+      "id": "node/3159027234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166130282",
+        "amenity": "cafe",
+        "name": "Cafe Ice Magic",
+        "source": "Local Knowledge;Local Resident"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4423952,
+          17.3940604
+        ]
+      },
+      "id": "node/3166130282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3200986817",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4870378,
+          17.4251997
+        ]
+      },
+      "id": "node/3200986817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3201283336",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4298262,
+          17.38716
+        ]
+      },
+      "id": "node/3201283336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3384194299",
+        "amenity": "cafe",
+        "name": "GOUSIA CAFE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3759154,
+          17.4643217
+        ]
+      },
+      "id": "node/3384194299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3387405046",
+        "amenity": "cafe",
+        "check_date": "2024-03-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3956661,
+          17.4954456
+        ]
+      },
+      "id": "node/3387405046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3506878893",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "ganga jamuna hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5175911,
+          17.443833
+        ]
+      },
+      "id": "node/3506878893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3507964234",
+        "addr:postcode": "500013",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Irani hotel",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5222355,
+          17.3935904
+        ]
+      },
+      "id": "node/3507964234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509637256",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4117989,
+          17.4002472
+        ]
+      },
+      "id": "node/3509637256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3638804612",
+        "amenity": "cafe",
+        "name": "Grand Ma Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4384751,
+          17.41697
+        ]
+      },
+      "id": "node/3638804612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4187283992",
+        "amenity": "cafe",
+        "name": "Hyder Cafe",
+        "name:en": "Hyder Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4807565,
+          17.3658039
+        ]
+      },
+      "id": "node/4187283992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4187300502",
+        "amenity": "cafe",
+        "name": "Adarsh Cafe",
+        "name:te": "ఆదర్శ్ కేఫె"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4729232,
+          17.405848
+        ]
+      },
+      "id": "node/4187300502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378873492",
+        "addr:postcode": "500027",
+        "addr:street": "Golnaka Road",
+        "amenity": "cafe",
+        "name": "Aqua Cafe",
+        "name:en": "Aqua Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5036851,
+          17.3886699
+        ]
+      },
+      "id": "node/4378873492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4415336191",
+        "amenity": "cafe",
+        "name": "andhra cafe",
+        "name:en": "andhra cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4926794,
+          17.4111893
+        ]
+      },
+      "id": "node/4415336191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417113395",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4951508,
+          17.4033145
+        ]
+      },
+      "id": "node/4417113395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4417155889",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4895065,
+          17.4007653
+        ]
+      },
+      "id": "node/4417155889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4418622813",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4882964,
+          17.4009552
+        ]
+      },
+      "id": "node/4418622813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4422093292",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.489014,
+          17.4107091
+        ]
+      },
+      "id": "node/4422093292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4428049396",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4883621,
+          17.4009329
+        ]
+      },
+      "id": "node/4428049396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4431246390",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4894433,
+          17.4007506
+        ]
+      },
+      "id": "node/4431246390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4431246689",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4884033,
+          17.4009592
+        ]
+      },
+      "id": "node/4431246689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4432327793",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4899879,
+          17.40585
+        ]
+      },
+      "id": "node/4432327793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4432328891",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4894385,
+          17.4007951
+        ]
+      },
+      "id": "node/4432328891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4432377389",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4884261,
+          17.4009796
+        ]
+      },
+      "id": "node/4432377389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4508429695",
+        "amenity": "cafe",
+        "name": "Balaji darshan",
+        "name:en": "Balaji darshan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4904922,
+          17.4087261
+        ]
+      },
+      "id": "node/4508429695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4516680142",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4467413,
+          17.4419661
+        ]
+      },
+      "id": "node/4516680142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4526392729",
+        "amenity": "cafe",
+        "name": "Cafe Bahar",
+        "name:te": "కఫె బహార్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4476425,
+          17.4414545
+        ]
+      },
+      "id": "node/4526392729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4614310917",
+        "amenity": "cafe",
+        "name": "Cafe Coffee Day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4817501,
+          17.440538
+        ]
+      },
+      "id": "node/4614310917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674762291",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "name:en": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3165957,
+          17.4799731
+        ]
+      },
+      "id": "node/4674762291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4684713994",
+        "amenity": "cafe",
+        "name": "Salarjung Museum Tea Stall",
+        "name:en": "Salarjung Museum Tea Stall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4799305,
+          17.3711694
+        ]
+      },
+      "id": "node/4684713994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4729107489",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "name:en": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.355663,
+          17.4426308
+        ]
+      },
+      "id": "node/4729107489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4784090873",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "name": "Labonel fine baking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3665736,
+          17.4368647
+        ]
+      },
+      "id": "node/4784090873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920193221",
+        "amenity": "cafe",
+        "name": "Heavenz",
+        "name:en": "Heavenz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4847267,
+          17.396742
+        ]
+      },
+      "id": "node/4920193221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5257229421",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Ciclo Café",
+        "website": "https://ciclo.cafe/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4047279,
+          17.4336528
+        ]
+      },
+      "id": "node/5257229421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259994123",
+        "amenity": "cafe",
+        "name": "Kaficko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4101163,
+          17.4246579
+        ]
+      },
+      "id": "node/5259994123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358760122",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4482967,
+          17.4147537
+        ]
+      },
+      "id": "node/5358760122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5404824143",
+        "amenity": "cafe",
+        "name": "SVK canteen",
+        "name:te": "సుందరయ్య విజ్ఞాన కేంద్ర క్యాంటీన్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3600653,
+          17.4359971
+        ]
+      },
+      "id": "node/5404824143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405056431",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "cuisine": "coffee_shop",
+        "description": "gachibowli",
+        "name": "Cafe Coffee Day",
+        "shop": "coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3556843,
+          17.442773
+        ]
+      },
+      "id": "node/5405056431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5409224603",
+        "amenity": "cafe",
+        "cuisine": "pastry;burger",
+        "name": "Just Bake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5147033,
+          17.4038651
+        ]
+      },
+      "id": "node/5409224603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5448265105",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "level": "1",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "shop": "coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4071232,
+          17.4329059
+        ]
+      },
+      "id": "node/5448265105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5515637837",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:pa": "ਸਟਾਰਬਕਸ",
+        "brand:ur": "اسٹاربکس",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "name:pa": "ਸਟਾਰਬਕਸ",
+        "name:ur": "اسٹاربکس",
+        "official_name": "Starbucks Coffee",
+        "official_name:pa": "ਸਟਾਰਬਕਸ ਕੌਫੀ",
+        "official_name:ur": "اسٹاربکس کافی",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3807897,
+          17.4414532
+        ]
+      },
+      "id": "node/5515637837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5539317124",
+        "amenity": "cafe",
+        "name": "Turning Point Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5196532,
+          17.4194736
+        ]
+      },
+      "id": "node/5539317124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5539327275",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5176416,
+          17.4197113
+        ]
+      },
+      "id": "node/5539327275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608451451",
+        "amenity": "cafe",
+        "cuisine": "regional;indian",
+        "name": "Sree Balaji Sweet Shop",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5172634,
+          17.4198866
+        ]
+      },
+      "id": "node/5608451451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5620024292",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:pa": "ਸਟਾਰਬਕਸ",
+        "brand:ur": "اسٹاربکس",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "level": "-1",
+        "name": "Starbucks",
+        "name:pa": "ਸਟਾਰਬਕਸ",
+        "name:te": "స్టార్ బక్స్",
+        "name:ur": "اسٹاربکس",
+        "official_name": "Starbucks Coffee",
+        "official_name:pa": "ਸਟਾਰਬਕਸ ਕੌਫੀ",
+        "official_name:ur": "اسٹاربکس کافی",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4482191,
+          17.4193666
+        ]
+      },
+      "id": "node/5620024292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5644406041",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Limrah Tea & Snaks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4399451,
+          17.3568846
+        ]
+      },
+      "id": "node/5644406041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5877511806",
+        "amenity": "cafe",
+        "name": "Driven Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3386411,
+          17.4219679
+        ]
+      },
+      "id": "node/5877511806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5942734591",
+        "amenity": "cafe",
+        "name": "Minevera Coffee Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.384665,
+          17.4461557
+        ]
+      },
+      "id": "node/5942734591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089840786",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Terrasen Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4410872,
+          17.4204876
+        ]
+      },
+      "id": "node/6089840786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6131962786",
+        "amenity": "cafe",
+        "name": "My Friend’s Irani Chai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4771905,
+          17.4992034
+        ]
+      },
+      "id": "node/6131962786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6133852986",
+        "amenity": "cafe",
+        "name": "Hotel Skylab Irani Chai Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5187439,
+          17.4359573
+        ]
+      },
+      "id": "node/6133852986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6133852987",
+        "amenity": "cafe",
+        "name": "Grand 360 Irani Chai Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5126598,
+          17.5030312
+        ]
+      },
+      "id": "node/6133852987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6134655288",
+        "amenity": "cafe",
+        "name": "Coronation Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4652407,
+          17.4059762
+        ]
+      },
+      "id": "node/6134655288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6154835392",
+        "amenity": "cafe",
+        "name": "Metro Bawarchi Irani Chai Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5077847,
+          17.440235
+        ]
+      },
+      "id": "node/6154835392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187870385",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500004",
+        "addr:street": "Mehdi Nawaj Jung Road",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Himalaya Cafe",
+        "payment:cash": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4625614,
+          17.3961227
+        ]
+      },
+      "id": "node/6187870385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187870386",
+        "addr:city": "Hyderbad",
+        "addr:state": "Telangana",
+        "addr:street": "Red Hills Road",
+        "alt_name": "Cafe Niloufer",
+        "amenity": "cafe",
+        "cuisine": "tea;cake",
+        "diet:vegetarian": "yes",
+        "name": "Niloufer Bakery",
+        "name:ur": "نیلوفر بیکری",
+        "operator": "Babu Rao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4628453,
+          17.4005982
+        ]
+      },
+      "id": "node/6187870386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187870785",
+        "amenity": "cafe",
+        "name": "New Nilofer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4629214,
+          17.3996049
+        ]
+      },
+      "id": "node/6187870785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6205211485",
+        "amenity": "cafe",
+        "name": "Blue Moon Irani Chai Cafe",
+        "name:te": "బ్లు మూన్ ఇరానీ చాయ్ కేఫ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4938821,
+          17.4404997
+        ]
+      },
+      "id": "node/6205211485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6208309286",
+        "amenity": "cafe",
+        "name": "Zam Zam Cafe",
+        "name:te": "జాం జాం కేఫ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4695787,
+          17.4019737
+        ]
+      },
+      "id": "node/6208309286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6209822886",
+        "amenity": "cafe",
+        "name": "Cafe 555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4512671,
+          17.4029924
+        ]
+      },
+      "id": "node/6209822886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6209984886",
+        "amenity": "cafe",
+        "name": "Coronation Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4653375,
+          17.4063217
+        ]
+      },
+      "id": "node/6209984886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6209990590",
+        "amenity": "cafe",
+        "name": "Sitara Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4641416,
+          17.4014076
+        ]
+      },
+      "id": "node/6209990590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213046486",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4060125,
+          17.429811
+        ]
+      },
+      "id": "node/6213046486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213051887",
+        "addr:street": "Road no. 44",
+        "amenity": "cafe",
+        "name": "Harika Tiffins &Snacks",
+        "name:en": "Harika Tiffins & Snacks",
+        "phone": "9949696327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4052452,
+          17.4290162
+        ]
+      },
+      "id": "node/6213051887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6216842985",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4648531,
+          17.3924442
+        ]
+      },
+      "id": "node/6216842985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6246300070",
+        "addr:city": "Kachiguda",
+        "addr:postcode": "500020",
+        "addr:street": "Nimboliadda",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Sangam Hotel",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4938074,
+          17.3841607
+        ]
+      },
+      "id": "node/6246300070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6246440085",
+        "amenity": "cafe",
+        "name": "Freak Shake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3829633,
+          17.4540505
+        ]
+      },
+      "id": "node/6246440085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6308262617",
+        "amenity": "cafe",
+        "name": "AM PM Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.492225,
+          17.4084627
+        ]
+      },
+      "id": "node/6308262617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6352370685",
+        "amenity": "cafe",
+        "name": "Dostea Chai Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3916686,
+          17.4414944
+        ]
+      },
+      "id": "node/6352370685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6369867752",
+        "addr:street": "Road No. 1 SR Nagar",
+        "amenity": "cafe",
+        "name": "Chai village",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4431992,
+          17.4409109
+        ]
+      },
+      "id": "node/6369867752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6372301072",
+        "addr:city": "hyderabad",
+        "addr:housenumber": "kothapetr",
+        "addr:postcode": "500035",
+        "addr:street": "maruthi nagar",
+        "amenity": "cafe",
+        "cuisine": "tea",
+        "name": "tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5409623,
+          17.3756784
+        ]
+      },
+      "id": "node/6372301072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6372441844",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5397951,
+          17.3697172
+        ]
+      },
+      "id": "node/6372441844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6372463303",
+        "amenity": "cafe",
+        "name": "irani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5442504,
+          17.372511
+        ]
+      },
+      "id": "node/6372463303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6375069342",
+        "addr:city": "Hyderabad",
+        "addr:street": "Yellammabanda Road",
+        "amenity": "cafe",
+        "name": "Good Will Hotel",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4076729,
+          17.5074308
+        ]
+      },
+      "id": "node/6375069342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6399884540",
+        "amenity": "cafe",
+        "payment:cash": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4696426,
+          17.3924917
+        ]
+      },
+      "id": "node/6399884540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6411856963",
+        "addr:city": "HYDERABAD",
+        "addr:postcode": "500032",
+        "addr:street": "NANAKRAMGUDA",
+        "amenity": "cafe",
+        "name": "WAFL Café",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3477331,
+          17.422361
+        ]
+      },
+      "id": "node/6411856963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6690779940",
+        "amenity": "cafe",
+        "name": "Crown Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4963731,
+          17.396105
+        ]
+      },
+      "id": "node/6690779940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6693360867",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Sarvi Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4398023,
+          17.3944202
+        ]
+      },
+      "id": "node/6693360867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6697930152",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Imroze Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4457999,
+          17.4342826
+        ]
+      },
+      "id": "node/6697930152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6710912114",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Rio Cafe",
+        "name:te": "రియో కేఫ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4956406,
+          17.4404949
+        ]
+      },
+      "id": "node/6710912114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6758497452",
+        "amenity": "cafe",
+        "name": "Nebraska Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5144366,
+          17.4083364
+        ]
+      },
+      "id": "node/6758497452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6765562759",
+        "amenity": "cafe",
+        "name": "Shine Cafe",
+        "name:te": "షైన్ కేఫ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5150008,
+          17.4254761
+        ]
+      },
+      "id": "node/6765562759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6772788273",
+        "amenity": "cafe",
+        "name": "Golden Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5121871,
+          17.4230951
+        ]
+      },
+      "id": "node/6772788273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6772788275",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5339369,
+          17.4254896
+        ]
+      },
+      "id": "node/6772788275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6773025655",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5147385,
+          17.4295408
+        ]
+      },
+      "id": "node/6773025655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126474",
+        "amenity": "cafe",
+        "name": "Yaqoob Ali Cafe",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.463582,
+          17.355401
+        ]
+      },
+      "id": "node/6822126474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126495",
+        "amenity": "cafe",
+        "check_date": "2024-03-16",
+        "name": "Fresh And Honest Cafe Ltd",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.398959,
+          17.4853
+        ]
+      },
+      "id": "node/6822126495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126533",
+        "amenity": "cafe",
+        "name": "Telangana tea stall",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4418493,
+          17.4192438
+        ]
+      },
+      "id": "node/6822126533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126558",
+        "amenity": "cafe",
+        "name": "Drunken Monkey",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.529818,
+          17.367843
+        ]
+      },
+      "id": "node/6822126558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126581",
+        "amenity": "cafe",
+        "name": "Broadway Cafe, Bakers & Tiffins",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.425618,
+          17.469468
+        ]
+      },
+      "id": "node/6822126581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126589",
+        "amenity": "cafe",
+        "name": "New Banjara Cafe",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.422083,
+          17.469455
+        ]
+      },
+      "id": "node/6822126589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6822126623",
+        "amenity": "cafe",
+        "name": "Sikander Irani Tea And Snacks Point",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4401942,
+          17.4377802
+        ]
+      },
+      "id": "node/6822126623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6840941123",
+        "amenity": "cafe",
+        "name": "B. DUBS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4049578,
+          17.4337768
+        ]
+      },
+      "id": "node/6840941123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6868660419",
+        "amenity": "cafe",
+        "name": "DELHI WALA SWEETS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4225875,
+          17.4566065
+        ]
+      },
+      "id": "node/6868660419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909347687",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Aaha Coffee Shop",
+        "opening_hours": "Mo-Su 04:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3903555,
+          17.4066812
+        ]
+      },
+      "id": "node/6909347687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6935318131",
+        "addr:city": "Hyderabad",
+        "addr:housenumber": "201",
+        "addr:postcode": "500032",
+        "addr:street": "Outer Ring Road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;burger;kebab;pizza",
+        "internet_access": "yes",
+        "name": "Rams",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.361869,
+          17.4402465
+        ]
+      },
+      "id": "node/6935318131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6935457683",
+        "addr:city": "SECUNDERABAD",
+        "addr:street": "RR NAGAR",
+        "amenity": "cafe",
+        "name": "CELEBRATIONS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4754095,
+          17.4800874
+        ]
+      },
+      "id": "node/6935457683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6935469225",
+        "addr:city": "SECUNDERABAD",
+        "addr:street": "MALLIKARJUNA COLONY",
+        "amenity": "cafe",
+        "cuisine": "sandwich;burger",
+        "name": "BAKE 2 BAKE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4806952,
+          17.4796444
+        ]
+      },
+      "id": "node/6935469225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004557287",
+        "amenity": "cafe",
+        "cuisine": "ice_cream;juice;lassi;falooda",
+        "name": "Lassi Shop",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4728822,
+          17.3546889
+        ]
+      },
+      "id": "node/7004557287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7010429408",
+        "amenity": "cafe",
+        "cuisine": "chocolate;waffles;ice_cream",
+        "level": "-1",
+        "name": "the chocolate room",
+        "name:te": "ది చాక్లెట్ రూమ్",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "http://theChocolateRoomIndia.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4791361,
+          17.4056683
+        ]
+      },
+      "id": "node/7010429408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7016789694",
+        "amenity": "cafe",
+        "name": "Mumtaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.477355,
+          17.3630966
+        ]
+      },
+      "id": "node/7016789694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7021303711",
+        "amenity": "cafe",
+        "name": "Tea Trails Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3853935,
+          17.4373534
+        ]
+      },
+      "id": "node/7021303711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7025820780",
+        "amenity": "cafe",
+        "name": "The Blender's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3973902,
+          17.4442543
+        ]
+      },
+      "id": "node/7025820780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7025820838",
+        "amenity": "cafe",
+        "name": "Waffle House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3939618,
+          17.4346129
+        ]
+      },
+      "id": "node/7025820838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7025820854",
+        "amenity": "cafe",
+        "name": "Ciclo Cafe & Bicycle Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4043358,
+          17.4336999
+        ]
+      },
+      "id": "node/7025820854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7025820863",
+        "amenity": "cafe",
+        "name": "7Ten Spa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4029825,
+          17.435928
+        ]
+      },
+      "id": "node/7025820863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7027876786",
+        "amenity": "cafe",
+        "name": "Zeeshan hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3999564,
+          17.3878813
+        ]
+      },
+      "id": "node/7027876786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7043245719",
+        "amenity": "cafe",
+        "brand": "Chai Point",
+        "brand:wikidata": "Q28173415",
+        "cuisine": "coffee_shop",
+        "name": "Chai Point",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3917089,
+          17.443382
+        ]
+      },
+      "id": "node/7043245719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7066081507",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "brand:wikipedia": "en:Café Coffee Day",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3641927,
+          17.4497262
+        ]
+      },
+      "id": "node/7066081507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088103681",
+        "addr:city": "patancheru",
+        "addr:postcode": "502319",
+        "addr:street": "mumbai highway",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Shadhab bekary & cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2635143,
+          17.5297619
+        ]
+      },
+      "id": "node/7088103681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7088581772",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "50010",
+        "addr:street": "Bolarum",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Surekha Tiffins",
+        "operator": "Narsingh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5160871,
+          17.5333019
+        ]
+      },
+      "id": "node/7088581772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113870386",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5067935,
+          17.3619356
+        ]
+      },
+      "id": "node/7113870386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113996685",
+        "amenity": "cafe",
+        "name": "Laiba's cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4260064,
+          17.4314834
+        ]
+      },
+      "id": "node/7113996685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7243946128",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "brand:wikipedia": "en:Café Coffee Day",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3596841,
+          17.4959372
+        ]
+      },
+      "id": "node/7243946128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7243974415",
+        "amenity": "cafe",
+        "name": "sheela cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5031801,
+          17.3963694
+        ]
+      },
+      "id": "node/7243974415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7243990070",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5096775,
+          17.415693
+        ]
+      },
+      "id": "node/7243990070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7244017420",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5741371,
+          17.369451
+        ]
+      },
+      "id": "node/7244017420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7244238224",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5085921,
+          17.4092593
+        ]
+      },
+      "id": "node/7244238224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7244243972",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "brand:wikipedia": "en:Café Coffee Day",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5077415,
+          17.4003341
+        ]
+      },
+      "id": "node/7244243972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7244267525",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5079704,
+          17.4119995
+        ]
+      },
+      "id": "node/7244267525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7244267538",
+        "amenity": "cafe",
+        "cuisine": "tea_stall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5072414,
+          17.410739
+        ]
+      },
+      "id": "node/7244267538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246498944",
+        "amenity": "cafe",
+        "check_date": "2024-03-16",
+        "name": "makers of milkshake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3914828,
+          17.4871866
+        ]
+      },
+      "id": "node/7246498944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246526407",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5065099,
+          17.4094475
+        ]
+      },
+      "id": "node/7246526407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246564074",
+        "amenity": "cafe",
+        "name": "Indian cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.547559,
+          17.3479666
+        ]
+      },
+      "id": "node/7246564074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246803474",
+        "amenity": "cafe",
+        "name": "Coffee day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4349784,
+          17.3944076
+        ]
+      },
+      "id": "node/7246803474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7608653251",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500084",
+        "addr:street": "police colny road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Ye Lo Chai",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3653234,
+          17.4646797
+        ]
+      },
+      "id": "node/7608653251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7611073999",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "brand:wikipedia": "en:Café Coffee Day",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.364418,
+          17.4575081
+        ]
+      },
+      "id": "node/7611073999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7644477016",
+        "amenity": "cafe",
+        "name": "Paradise",
+        "name:te": "పారడైజ్"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4873345,
+          17.4414151
+        ]
+      },
+      "id": "node/7644477016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7860471142",
+        "amenity": "cafe",
+        "brand": "Lassi Shop",
+        "cuisine": "drinks",
+        "description": "Serves different types of lassi, milkshakes and fruity beverages",
+        "drink:coffee": "no",
+        "drink:juice": "served",
+        "name": "Lassi Shop",
+        "opening_hours": "Mo-Fr 11:00-21:30, Sa-Su 11:00-22:00",
+        "website": "https://www.lassishop.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3580038,
+          17.4975812
+        ]
+      },
+      "id": "node/7860471142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8113625322",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4120777,
+          17.4196586
+        ]
+      },
+      "id": "node/8113625322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8866661348",
+        "addr:housenumber": "9G98+JH Hyderabad, Telangana",
+        "addr:street": "16-2-741/29 & 37, NH65, Bank Colony, New Malakpet, Hyderabad, Telangana 500036",
+        "amenity": "cafe",
+        "name": "Moon Bean Cafe bar",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "website": "https://www.zomato.com/hyderabad/moon-bean-cafe-malakpet/photos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5164337,
+          17.3690624
+        ]
+      },
+      "id": "node/8866661348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8921450263",
+        "amenity": "cafe",
+        "name": "Hashtag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5526913,
+          17.3743811
+        ]
+      },
+      "id": "node/8921450263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9093598817",
+        "addr:postcode": "500004",
+        "addr:street": "Mahavir Marg",
+        "amenity": "cafe",
+        "name": "Ammamagari Illu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4571119,
+          17.4029173
+        ]
+      },
+      "id": "node/9093598817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9094232018",
+        "addr:postcode": "500038",
+        "addr:street": "Sanjeeva Reddy Nagar Colony Main Road",
+        "amenity": "cafe",
+        "name": "Vindhu Tiffins",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "095333 51476"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4440716,
+          17.4419954
+        ]
+      },
+      "id": "node/9094232018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9150847517",
+        "addr:postcode": "500033",
+        "addr:street": "kavuri hills road",
+        "amenity": "cafe",
+        "name": "HummingBird Café",
+        "phone": "040 4852 4995"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3974255,
+          17.440457
+        ]
+      },
+      "id": "node/9150847517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9369907790",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3987973,
+          17.4529675
+        ]
+      },
+      "id": "node/9369907790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9713129747",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "roobaroo cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5114738,
+          17.3524157
+        ]
+      },
+      "id": "node/9713129747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731704308",
+        "amenity": "cafe",
+        "name": "N S Pizza Hub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5077151,
+          17.4236387
+        ]
+      },
+      "id": "node/9731704308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9766930174",
+        "addr:city": "Hyderabad",
+        "addr:housenumber": "plot no 4",
+        "addr:postcode": "500070",
+        "addr:street": "Plot Num:04, Vanasthali Hills, rangareddy dist Vanasthalipuram, above Arca Diagnostics, Hyderabad, Telangana 500070",
+        "amenity": "cafe",
+        "cuisine": "mexican;latin_american",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Amano Cafe",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5709175,
+          17.3371073
+        ]
+      },
+      "id": "node/9766930174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9803882481",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3635165,
+          17.4496549
+        ]
+      },
+      "id": "node/9803882481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9803882488",
+        "amenity": "cafe",
+        "brand": "Barista",
+        "brand:wikidata": "Q644735",
+        "cuisine": "coffee_shop",
+        "name": "Barista",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3640624,
+          17.4461437
+        ]
+      },
+      "id": "node/9803882488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9838650870",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5156624,
+          17.3448473
+        ]
+      },
+      "id": "node/9838650870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903887140",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500055",
+        "addr:street": "Chandragiri nagar",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4255857,
+          17.5129136
+        ]
+      },
+      "id": "node/9903887140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903904325",
+        "addr:city": "Sanjeeva Reddy Nagar, Hyderabad",
+        "addr:postcode": "500038",
+        "addr:street": "BK Guda Road",
+        "amenity": "cafe",
+        "name": "Orient Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4458097,
+          17.4440151
+        ]
+      },
+      "id": "node/9903904325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903919145",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5168717,
+          17.4227725
+        ]
+      },
+      "id": "node/9903919145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9918495802",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4275315,
+          17.5095537
+        ]
+      },
+      "id": "node/9918495802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9918846043",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4288878,
+          17.5220053
+        ]
+      },
+      "id": "node/9918846043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9924632185",
+        "amenity": "cafe",
+        "name": "City Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4826301,
+          17.4762955
+        ]
+      },
+      "id": "node/9924632185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10171328871",
+        "amenity": "cafe",
+        "name": "Cosa de Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3919352,
+          17.447691
+        ]
+      },
+      "id": "node/10171328871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10171328916",
+        "amenity": "cafe",
+        "brand": "Chai Point",
+        "brand:wikidata": "Q28173415",
+        "cuisine": "coffee_shop",
+        "name": "Chai Point",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3919495,
+          17.4496259
+        ]
+      },
+      "id": "node/10171328916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10262083190",
+        "amenity": "cafe",
+        "name": "SATYA NARAYANA CAFE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5328389,
+          17.4469498
+        ]
+      },
+      "id": "node/10262083190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10277927482",
+        "amenity": "cafe",
+        "name": "cafe1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5423587,
+          17.4381232
+        ]
+      },
+      "id": "node/10277927482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10279599973",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5363449,
+          17.3372855
+        ]
+      },
+      "id": "node/10279599973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10279842278",
+        "addr:city": "Hyderabad",
+        "addr:street": "Somajiguda Road - Panjagutta Main Road",
+        "amenity": "cafe",
+        "name": "Asiatic cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4548339,
+          17.4221402
+        ]
+      },
+      "id": "node/10279842278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10718145768",
+        "amenity": "cafe",
+        "brand": "McCafé",
+        "brand:wikidata": "Q3114287",
+        "cuisine": "coffee_shop",
+        "name": "McCafé",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3790681,
+          17.4480798
+        ]
+      },
+      "id": "node/10718145768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10718145770",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "check_date": "2024-03-29",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.379037,
+          17.4478744
+        ]
+      },
+      "id": "node/10718145770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10718148977",
+        "amenity": "cafe",
+        "name": "Karachi Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3767286,
+          17.4415605
+        ]
+      },
+      "id": "node/10718148977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10732482012",
+        "amenity": "cafe",
+        "name": "Zeeshaan Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4006455,
+          17.397285
+        ]
+      },
+      "id": "node/10732482012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10732489637",
+        "amenity": "cafe",
+        "name": "Shazaan Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4009687,
+          17.3974757
+        ]
+      },
+      "id": "node/10732489637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903231372",
+        "addr:city": "Vanasthaslipuram,Hyderabad",
+        "addr:housenumber": "B 91, Phase-1, Sachivalaya Colony, Vanasthalipuram, Telangana 500070",
+        "addr:postcode": "500070",
+        "amenity": "cafe",
+        "name": "cafe day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5745238,
+          17.330489
+        ]
+      },
+      "id": "node/10903231372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11015782751",
+        "addr:street": "Raj Bhavan Road",
+        "amenity": "cafe",
+        "brand": "Cafe Coffee Day",
+        "brand:wikidata": "Q5017235",
+        "check_date": "2023-06-30",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffee Day",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4575557,
+          17.4265089
+        ]
+      },
+      "id": "node/11015782751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11027534546",
+        "amenity": "cafe",
+        "name": "Rose land cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4461681,
+          17.4321204
+        ]
+      },
+      "id": "node/11027534546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11082456164",
+        "amenity": "cafe",
+        "name": "Hina J.K Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4091484,
+          17.4557125
+        ]
+      },
+      "id": "node/11082456164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11082995784",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5146933,
+          17.3700961
+        ]
+      },
+      "id": "node/11082995784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11084918128",
+        "amenity": "cafe",
+        "cuisine": "kebab;indian",
+        "name": "Mubarak Cafe And Restarunt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4232229,
+          17.4468771
+        ]
+      },
+      "id": "node/11084918128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11084918135",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "A.K cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4105217,
+          17.4542528
+        ]
+      },
+      "id": "node/11084918135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11084918136",
+        "amenity": "cafe",
+        "name": "Ali Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4109675,
+          17.4542841
+        ]
+      },
+      "id": "node/11084918136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11117599908",
+        "addr:city": "Hyderabad",
+        "addr:district": "Ranga Reddy",
+        "addr:housenumber": "1st floor",
+        "addr:postcode": "500032",
+        "addr:street": "Gopanpally - Wipro Road",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;pizza;burger;sandwich;salad;breakfast;smoothie;fried_food;fries;fried_chicken;soup",
+        "highchair": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Coffee Maniac",
+        "opening_hours": "Mo-Su 12:00-23:59",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:sodexo": "yes",
+        "payment:visa": "yes",
+        "phone": "9010255050",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://menu.coffeemaniac.in",
+        "website:menu": "https://menu.coffeemaniac.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3254817,
+          17.4294695
+        ]
+      },
+      "id": "node/11117599908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11332747887",
+        "addr:city": "Hyderabad",
+        "addr:housenumber": "2",
+        "addr:postcode": "500084",
+        "addr:street": "Green Hamlet Road",
+        "amenity": "cafe",
+        "cuisine": "sandwich;juice;smoothie;quick_bites;thickshakes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "fruzos",
+        "name": "Fruzos",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.366851,
+          17.4696404
+        ]
+      },
+      "id": "node/11332747887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11343121738",
+        "addr:city": "Hyderabad",
+        "addr:district": "Medchal-Malkajgiri",
+        "addr:housenumber": "Plot 138",
+        "addr:postcode": "500094",
+        "addr:street": "H. T. Line Road",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "pizza;chinese;burger",
+        "delivery": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Jack & Jill",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+917989490170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.544394,
+          17.4952063
+        ]
+      },
+      "id": "node/11343121738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11361156221",
+        "addr:city": "Kukatpally",
+        "addr:district": "Hyderabad",
+        "addr:housenumber": "F9VM+4Q",
+        "addr:postcode": "500085",
+        "addr:street": "Shoping Complex, nr. VasanthNagar",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "SUSHMA TEA POINT",
+        "opening_hours": "6 am-8 pm",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:upi": "yes",
+        "phone": "08790028381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3843766,
+          17.4927364
+        ]
+      },
+      "id": "node/11361156221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11422123769",
+        "amenity": "cafe",
+        "name": "Tea and Snacks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4582636,
+          17.4270007
+        ]
+      },
+      "id": "node/11422123769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11484352543",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "cafe coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5509249,
+          17.3469468
+        ]
+      },
+      "id": "node/11484352543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11597323663",
+        "addr:housenumber": "418",
+        "addr:street": "Rd 14",
+        "amenity": "cafe",
+        "name": "Roastery",
+        "opening_hours": "Mo-Su 08:00-23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4315491,
+          17.4232807
+        ]
+      },
+      "id": "node/11597323663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11597368004",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Third Wave Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.372086,
+          17.4574395
+        ]
+      },
+      "id": "node/11597368004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11597368919",
+        "amenity": "cafe",
+        "name": "Autumn Leaf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4020089,
+          17.4337892
+        ]
+      },
+      "id": "node/11597368919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690820970",
+        "amenity": "cafe",
+        "name": "nio o nine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.544075,
+          17.3601769
+        ]
+      },
+      "id": "node/11690820970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11690847010",
+        "amenity": "cafe",
+        "name": "arch cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.544728,
+          17.3612924
+        ]
+      },
+      "id": "node/11690847010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696546991",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "dlite shakes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5423089,
+          17.3587788
+        ]
+      },
+      "id": "node/11696546991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11771783710",
+        "amenity": "cafe",
+        "check_date": "2024-03-29",
+        "name": "Cafe Niloufer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4277314,
+          17.413327
+        ]
+      },
+      "id": "node/11771783710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11772090397",
+        "amenity": "cafe",
+        "check_date": "2024-03-29",
+        "name": "Tawakal Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3613839,
+          17.4970169
+        ]
+      },
+      "id": "node/11772090397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11773916556",
+        "amenity": "cafe",
+        "check_date": "2024-03-30",
+        "name": "Hangout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4059143,
+          17.4922715
+        ]
+      },
+      "id": "node/11773916556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12079412569",
+        "addr:postcode": "500032",
+        "addr:street": "Old Bombay Road",
+        "amenity": "cafe",
+        "cuisine": "indian",
+        "name": "Basketball Canteen (BBC)",
+        "opening_hours": "Mo-Su 08:30-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3477494,
+          17.4478614
+        ]
+      },
+      "id": "node/12079412569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12110291337",
+        "addr:street": "360-C, Survey 77, Raghavendra Colony Serlingampally, Kondapur Village, Kondapur, Telangana 500084",
+        "amenity": "cafe",
+        "name": "Cafe Chit Chat Chai - Kondapur",
+        "phone": "+9195732 12344",
+        "website": "https://www.chitchatchai.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3605499,
+          17.4676094
+        ]
+      },
+      "id": "node/12110291337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12298767100",
+        "amenity": "cafe",
+        "cuisine": "pizza;pasta;fried_chicken;wraps;sandwich;chinese",
+        "internet_access": "no",
+        "name": "Wraps & Broast",
+        "opening_hours": "Mo-Su 14:00-01:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4253744,
+          17.4504422
+        ]
+      },
+      "id": "node/12298767100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12410036601",
+        "amenity": "cafe",
+        "email": "f3cafebistro@gmail.com",
+        "name": "F3 Café and Bistro",
+        "website": "https://f3cafe.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5438478,
+          17.4872568
+        ]
+      },
+      "id": "node/12410036601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12852305277",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafe Coffe day"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.515799,
+          17.4056483
+        ]
+      },
+      "id": "node/12852305277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12854596350",
+        "amenity": "cafe",
+        "name": "Sea Rock Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4624516,
+          17.4196215
+        ]
+      },
+      "id": "node/12854596350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12857134679",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Barista",
+        "not:brand:wikidata": "Q644735",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3977186,
+          17.5207432
+        ]
+      },
+      "id": "node/12857134679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12890289801",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4351395,
+          17.4541753
+        ]
+      },
+      "id": "node/12890289801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12976261868",
+        "addr:city": "Hyderabad",
+        "addr:postcode": "500081",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "italian;mexican;spanish",
+        "description": "Place is famous for Churros and Gourmet food.",
+        "drive_through": "no",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Churrolto",
+        "outdoor_seating": "no",
+        "reservation": "yes",
+        "website": "https://www.churrolto.com/",
+        "website:menu": "https://www.churrolto.com/c/menu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3762981,
+          17.4565417
+        ]
+      },
+      "id": "node/12976261868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13196312446",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "This The Place!",
+        "website": "https://www.instagram.com/thistheplace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3847896,
+          17.4440806
+        ]
+      },
+      "id": "node/13196312446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13196312447",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Isabel",
+        "website": "https://www.instagram.com/isabel.hyd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3847992,
+          17.4441112
+        ]
+      },
+      "id": "node/13196312447"
+    }
+  ]
+}
